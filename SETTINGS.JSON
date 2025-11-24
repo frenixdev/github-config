@@ -4,7 +4,6 @@
   "workbench.startupEditor": "none",
   "workbench.tips.enabled": false,
   "editor.minimap.enabled": false,
-  "workbench.sideBar.location": "right",
   "workbench.iconTheme": "material-icon-theme",
   "material-icon-theme.hidesExplorerArrows": true,
   "workbench.tree.enableStickyScroll": false,
@@ -16,7 +15,6 @@
   "explorer.decorations.badges": false,
   //"git.decorations.enabled": false,
   "window.zoomLevel": 0,
-  "window.customTitleBarVisibility": "never",
   "custom-ui-style.stylesheet": {
     ".notification-toast": "box-shadow: none !important",
     ".quick-input-widget.show-file-icons": "box-shadow: none !important",
@@ -64,7 +62,7 @@
     "sideBar.background": "#191521"
   },
   },
-  "editor.fontFamily": "Dank Mono",
+  "editor.fontFamily": "'Dank Mono', 'Fira Code'",
   "editor.fontSize": 14,
   "editor.fontLigatures": true,
   "editor.lineHeight": 1.7,
@@ -130,7 +128,7 @@
   "files.exclude": {
     "**/.git": false
   },
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
+
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -161,5 +159,43 @@
 "chat.sendElementsToChat.attachImages": false,
 "chat.sendElementsToChat.enabled": false,
 "chat.sendElementsToChat.attachCSS": false,
-"liveServer.settings.donotShowInfoMsg": true
+"liveServer.settings.donotShowInfoMsg": true,
+"explorer.confirmPasteNative": false,
+"workbench.secondarySideBar.defaultVisibility": "visible",
+"chat.agent.enabled": false,
+"gitlens.ai.model": "vscode",
+"gitlens.ai.vscode.model": "copilot:gpt-4.1",
+"github.copilot.nextEditSuggestions.enabled": true,
+"github.copilot.enable": {
+  "*": false,
+  "plaintext": false,
+  "markdown": false,
+  "scminput": false
+},
+"typescript.preferences.jsxEmit": "react-jsx",
+"typescript.tsserver.useSeparateSyntaxServer": false,
+"typescript.tsdk": "C:/Users/Frenix/AppData/Roaming/npm/node_modules/typescript/lib",
+"typescript.format.enable": true,
+"typescript.preferences.importModuleSpecifier": "relative",
+"typescript.preferences.quoteStyle": "double",
+"typescript.preferences.target": "ES6",
+
+"terminal.integrated.defaultProfile.windows": "Git Bash",
+"terminal.integrated.profiles.windows": {
+    "Git Bash": {
+        "path": "C:\\Program Files\\Git\\bin\\bash.exe",
+        "source": "Git Bash"
+    }
+},
+
+"workbench.panel.defaultLocation": "bottom",
+"chat.enabled": false,
+"chat.experimental.newPanelLayout": false,
+"chat.experimental.active": false,
+"workbench.sideBar.location": "right",
+"chat.disableAIFeatures": true,
+"[typescript]": {
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
+
 }

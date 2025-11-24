@@ -1,15 +1,9 @@
-// code --list-extensions > extensions.txt
-// cat extensions.txt | xargs -n 1 code --install-extension
-
-
-abusaidm.html-snippets
 anteprimorac.html-end-tag-labels
-asvetliakov.vscode-neovim
-blanu.vscode-styled-jsx
 bradlc.vscode-tailwindcss
 christian-kohler.npm-intellisense
 christian-kohler.path-intellisense
 dsznajder.es7-react-js-snippets
+eamodio.gitlens
 ecmel.vscode-html-css
 esbenp.prettier-vscode
 formulahendry.auto-rename-tag
@@ -18,6 +12,7 @@ jduncan017.tailwind-fold-with-class-names
 josemurilloc.aura-spirit-dracula
 kisstkondoros.vscode-gutter-preview
 lightyen.tailwindcss-intellisense-twin
+mhutchie.git-graph
 moyu.snapcode
 ms-vscode.live-server
 pkief.material-icon-theme
@@ -26,8 +21,7 @@ ritwickdey.liveserver
 robertz.code-snapshot
 rvest.vs-code-prettier-eslint
 stivo.tailwind-fold
-subframe7536.custom-ui-style
 usernamehw.errorlens
+yoavbls.pretty-ts-errors
 youxiaomi.vscode-styled-intelligent-plugin
-
-
+yzhang.markdown-all-in-one
